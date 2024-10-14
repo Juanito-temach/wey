@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0e68c;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+h1 {
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+p {
+    color: #555;
+    font-size: 18px;
+    display: none; /* Ocultar mensaje inicialmente */
+}
+.cake {
+    font-size: 50px;
+    margin: 20px 0;
+}
+.show {
+    display: block; /* Mostrar mensaje al hacer clic */
+}
